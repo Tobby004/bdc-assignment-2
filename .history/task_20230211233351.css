@@ -1,0 +1,63 @@
+*{
+    box-sizing:border-box;
+}
+header{
+
+    display: flex;
+    padding: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+body{
+    background-image: url(image/IMG100.JPG)
+}
+header b {
+    background-color:whitesmoke ;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    justify-content: center;
+}
+header a {
+    display: flexbox;
+    padding: 13px;
+    color: blue;
+    border-radius: 20px;
+    background-color: lightblue;
+    width: 200%;
+    margin-bottom: 20px;
+    max-width: 100px;
+}
+.form-input{
+    display: block;
+    max-width: 500px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+}
+
+input {
+    background-color: gainsboro;
+    display: flexbox;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+button {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    color: blue;
+    border-radius: 10px;
+    background: lightblue;
+}

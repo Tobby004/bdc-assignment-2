@@ -1,0 +1,22 @@
+*{
+    box-sizing:border-box;
+}
+header b {
+    background-color:whitesmoke ;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    max-width: 500px;
+    font-size: 20px;
+    justify-content: center;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.flex-container {
+    background-color: black;
+}
+.box{
+background-color: black;
+}

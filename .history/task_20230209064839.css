@@ -1,0 +1,11 @@
+*{
+    border-sizing:border-box;
+}
+header b {
+    background-color:yellowgreen ;
+    display: flexbox;
+    padding: 100px;
+    width: 20px;
+    max-width: 500%;
+    justify-content: center;
+}

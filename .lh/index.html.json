@@ -1,0 +1,82 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1675953122855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675954119696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <header>\n     <div class=\"flex-container\">\n         <br>\n             <b>\n-             <center>Sign In With</center>\n+             Sign In With\n             </b>\n         <br>\n         <br>\n         <a href=\"#\">\n"
+                },
+                {
+                    "date": 1676114653528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         </p>   \n          <p>Password\n             <a href=\"#\">Forgot?</a>\n             <br>\n-            <input type=\"password\" /></\n+            <input type=\"password\" />\n          </p>\n          <br>\n          <button>sign in</button>\n         </div>\n"
+                },
+                {
+                    "date": 1676115331928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n             </a>\n             </div>\n         </header>\n         \n+        <div class=\"box\"></div>\n         <div class=\"form-input\">\n         <p>Username\n             <br>\n             <input type=\"text\" placeholder=\"\" />\n"
+                },
+                {
+                    "date": 1676124613909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n             </a>\n             </div>\n         </header>\n         \n-        <div class=\"box\"></div>\n+        <div class=\"box\">\n         <div class=\"form-input\">\n         <p>Username\n             <br>\n             <input type=\"text\" placeholder=\"\" />\n"
+                },
+                {
+                    "date": 1676124933239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n             </a>\n             </div>\n         </header>\n         \n-        <div class=\"box\">\n+    \n         <div class=\"form-input\">\n         <p>Username\n             <br>\n             <input type=\"text\" placeholder=\"\" />\n"
+                },
+                {
+                    "date": 1676125864853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n     <link rel=\"stylesheet\" href=\"task.css\">\n </head>\n <body>\n     <header>\n-    <div class=\"flex-container\">\n+    <div class=\"box-container\">\n+        <div class=\"box1\">\n+        </div>\n         <br>\n             <b>\n              Sign In With\n             </b>\n"
+                },
+                {
+                    "date": 1676126105999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n <body>\n     <header>\n     <div class=\"box-container\">\n         <div class=\"box1\">\n-        </div>\n         <br>\n             <b>\n              Sign In With\n             </b>\n@@ -22,8 +21,9 @@\n             Facebook</a>\n             <a href=\"#\">\n                 Google\n             </a>\n+        </div>\n             </div>\n         </header>\n         \n     \n"
+                },
+                {
+                    "date": 1676130893207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,7 +39,10 @@\n          </p>\n          <br>\n          <button>sign in</button>\n         </div>\n+        <p>Not a member\n+            \n+        </p>\n     \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676131085711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,10 +39,12 @@\n          </p>\n          <br>\n          <button>sign in</button>\n         </div>\n-        <p>Not a member\n-            \n+        <nav>\n+        <p>Not a member?\n+            <a href=\"#\">Sign up now</a>\n         </p>\n-    \n+        </nav>\n+       <\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676131125921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n          <br>\n          <button>sign in</button>\n         </div>\n         <nav>\n-        <p>Not a member?\n+        Not a member?\n             <a href=\"#\">Sign up now</a>\n         </p>\n         </nav>\n        <\n"
+                },
+                {
+                    "date": 1676131334621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,12 +39,11 @@\n          </p>\n          <br>\n          <button>sign in</button>\n         </div>\n-        <nav>\n+        <P>\n         Not a member?\n             <a href=\"#\">Sign up now</a>\n         </p>\n-        </nav>\n-       <\n+        \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676131649143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n         </header>\n         \n     \n         <div class=\"form-input\">\n+        <div class=\"form\"></div>\n         <p>Username\n             <br>\n             <input type=\"text\" placeholder=\"\" />\n         </p>   \n@@ -39,11 +40,11 @@\n          </p>\n          <br>\n          <button>sign in</button>\n         </div>\n-        <P>\n+        <footer>\n         Not a member?\n             <a href=\"#\">Sign up now</a>\n-        </p>\n+        </footer>\n         \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676131686935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,8 @@\n          </p>\n          <br>\n          <button>sign in</button>\n         </div>\n-        <footer>\n-        Not a member?\n-            <a href=\"#\">Sign up now</a>\n-        </footer>\n         \n+        \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676132242893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,8 @@\n         </header>\n         \n     \n         <div class=\"form-input\">\n-        <div class=\"form\"></div>\n         <p>Username\n             <br>\n             <input type=\"text\" placeholder=\"\" />\n         </p>   \n"
+                },
+                {
+                    "date": 1676132607710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <br>\n             <input type=\"password\" />\n          </p>\n          <br>\n-         <button>sign in</button>\n+         <button><b>sign in</b></button>\n         </div>\n         \n         \n </body>\n"
+                },
+                {
+                    "date": 1676273738465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n </head>\n <body>\n     <header>\n     <div class=\"box-container\">\n-        <div class=\"box1\">\n         <br>\n             <b>\n              Sign In With\n             </b>\n@@ -21,9 +20,8 @@\n             Facebook</a>\n             <a href=\"#\">\n                 Google\n             </a>\n-        </div>\n             </div>\n         </header>\n         \n     \n"
+                }
+            ],
+            "date": 1675953122855,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=<device-width>, initial-scale=1.0\">\n    <title>Document</title>\n    <link rel=\"stylesheet\" href=\"task.css\">\n</head>\n<body>\n    <header>\n    <div class=\"flex-container\">\n        <br>\n            <b>\n             <center>Sign In With</center>\n            </b>\n        <br>\n        <br>\n        <a href=\"#\">\n            Facebook</a>\n            <a href=\"#\">\n                Google\n            </a>\n            </div>\n        </header>\n        \n        <div class=\"form-input\">\n        <p>Username\n            <br>\n            <input type=\"text\" placeholder=\"\" />\n        </p>   \n         <p>Password\n            <a href=\"#\">Forgot?</a>\n            <br>\n            <input type=\"password\" /></\n         </p>\n         <br>\n         <button>sign in</button>\n        </div>\n    \n</body>\n</html>"
+        }
+    ]
+}

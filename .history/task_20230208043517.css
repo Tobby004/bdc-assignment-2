@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightskyblue;
+}
+header{
+    background-color: blue;
+    
+}
+div a {
+    background: gainsboro;
+    display: inline-flex;
+    padding:10px;
+    color: black;
+}
+div {
+    display: inline;
+}

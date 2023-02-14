@@ -1,0 +1,13 @@
+*{
+    box-sizing:border-box;
+}
+header b {
+    background-color:yellowgreen ;
+    display: block;
+    padding: 10px;
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    justify-content: center;
+}

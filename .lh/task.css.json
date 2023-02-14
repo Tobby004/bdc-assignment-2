@@ -1,0 +1,202 @@
+{
+    "sourceFile": "task.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 46,
+            "patches": [
+                {
+                    "date": 1675953122856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675954119695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,64 +1,11 @@\n *{\n-    box-sizing: border-box;\n-} \n-body {\n-    background-color: #f1f1f1;\n+    border-sizing:border-box;\n }\n-header{\n-    padding: 20px;\n-    justify-content: right;\n-}\n-header a {\n-    padding: 10px;\n-    width: 100%;\n-    max-width: 500px;\n-    font-style: italic;\n-    background: blue;\n-    color: black;\n-}\n-.box {\n-    padding: 20px;\n-}\n-\n-}\n-.box div {\n-    max-width: 500px;\n-    padding: 10px;\n-    display: block;\n-    font-size: medium;\n-    margin-left: auto;\n-    margin-right: auto;\n-}\n-header div {\n-    display: flex;\n-    padding: 20px;\n-    font-size: 20px;\n-    max-width: 500px;\n-    margin-left: auto;\n-    margin-right: auto;\n-}\n-.form-input {\n-    background-color:rgb(195, 173, 173);\n-    width: 100%;\n-    max-width: 500px;\n-    margin-left: auto;\n-    margin-right: auto ;\n-}\n-input {\n-    display: block;\n-    width: 70%;\n-    background-color: deepskyblue;\n-    border-radius: 20px;\n-    margin-bottom: 10px;\n-    padding: 10px;\n-    border-color: chartreuse;\n-}\n-button {\n-    display: block;\n-    width: 70%;\n-    border: none;\n-    padding: 10px;\n-    border-radius: 20px;\n-    background-color: blue;\n-    color: rgb(153, 255, 20);\n-}\n+header b {\n+    background-color:yellowgreen ;\n+    display: flexbox;\n+    padding: 100px;\n+    width: 20px;\n+    max-width: 500%;\n+    justify-content: center;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675954449306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n *{\n-    border-sizing:border-box;\n+    box-sizing:border-box;\n }\n header b {\n     background-color:yellowgreen ;\n-    display: flexbox;\n-    padding: 100px;\n-    width: 20px;\n-    max-width: 500%;\n+    display: block;\n+    padding: 10px;\n+\n+    margin-right: auto;\n+    margin-left: auto;\n+    max-width: 500px;\n     justify-content: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675955445178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,12 @@\n *{\n     box-sizing:border-box;\n }\n header b {\n-    background-color:yellowgreen ;\n+    background-color:whitesmoke ;\n     display: block;\n     padding: 10px;\n-\n     margin-right: auto;\n     margin-left: auto;\n-    max-width: 500px;\n+    max-width: 200px;\n     justify-content: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676114653530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,15 @@\n     box-sizing:border-box;\n }\n header b {\n     background-color:whitesmoke ;\n-    display: block;\n+    display: flex;\n     padding: 10px;\n     margin-right: auto;\n     margin-left: auto;\n-    max-width: 200px;\n+    max-width: 500px;\n     justify-content: center;\n+}\n+body {\n+    padding: 0;\n+    margin: 0;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676114799840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n header b {\n     background-color:whitesmoke ;\n     display: flex;\n     padding: 10px;\n+    border-radius: 40px;\n     margin-right: auto;\n     margin-left: auto;\n     max-width: 500px;\n     justify-content: center;\n"
+                },
+                {
+                    "date": 1676115331926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,13 +5,18 @@\n     background-color:whitesmoke ;\n     display: flex;\n     padding: 10px;\n     border-radius: 40px;\n-    margin-right: auto;\n-    margin-left: auto;\n     max-width: 500px;\n+    font-size: 20px;\n     justify-content: center;\n }\n body {\n     padding: 0;\n     margin: 0;\n+}\n+.flex-container {\n+    background-color: black;\n+}\n+.box{\n+background-color: black;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676115356694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,11 @@\n     background-color:whitesmoke ;\n     display: flex;\n     padding: 10px;\n     border-radius: 40px;\n+    margin-right: auto;\n+    margin-left: auto;\n     max-width: 500px;\n-    font-size: 20px;\n     justify-content: center;\n }\n body {\n     padding: 0;\n"
+                },
+                {
+                    "date": 1676115667803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,13 +11,5 @@\n     max-width: 500px;\n     justify-content: center;\n }\n body {\n-    padding: 0;\n-    margin: 0;\n-}\n-.flex-container {\n-    background-color: black;\n-}\n-.box{\n-background-color: black;\n-}\n\\ No newline at end of file\n+    padding: 20px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676115743329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,7 @@\n     max-width: 500px;\n     justify-content: center;\n }\n body {\n-    padding: 20px;\n\\ No newline at end of file\n+    padding:0 ;\n+    margin: 10px ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676125864855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n     margin-left: auto;\n     max-width: 500px;\n     justify-content: center;\n }\n-body {\n-    padding:0 ;\n-    margin: 10px ;\n-}\n\\ No newline at end of file\n+.box-container{\n+    display: block;\n+    width: 20px;\n+}\n"
+                },
+                {
+                    "date": 1676126105998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,10 @@\n     margin-left: auto;\n     max-width: 500px;\n     justify-content: center;\n }\n-.box-container{\n-    display: block;\n-    width: 20px;\n+header a {\n+    padding: 10px;\n+display: flex;\n+    margin-left: auto;\n+    margin-right: auto;\n }\n"
+                },
+                {
+                    "date": 1676126419191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n     justify-content: center;\n }\n header a {\n     padding: 10px;\n-display: flex;\n-    margin-left: auto;\n-    margin-right: auto;\n+    display: flexbox;\n+    width: 20px;\n+    max-width: 500px\n+   \n }\n"
+                },
+                {
+                    "date": 1676126727969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,16 @@\n }\n header a {\n     padding: 10px;\n     display: flexbox;\n-    width: 20px;\n+    background-color: bisque;\n+    margin-left: 10px;\n     max-width: 500px\n-   \n }\n+.form-input{\n+    display: block;\n+    max-width: 500px;\n+    width: 20px;\n+    padding: 30px;\n+    margin-left: auto;\n+    margin-right: auto;\n+}\n"
+                },
+                {
+                    "date": 1676126797044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,10 @@\n }\n .form-input{\n     display: block;\n     max-width: 500px;\n-    width: 20px;\n+    height: 10px;\n+    float: inline-end;\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n }\n"
+                },
+                {
+                    "date": 1676126852215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n .form-input{\n     display: block;\n     max-width: 500px;\n     height: 10px;\n-    float: inline-end;\n+\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n }\n"
+                },
+                {
+                    "date": 1676126945034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,16 +14,16 @@\n header a {\n     padding: 10px;\n     display: flexbox;\n     background-color: bisque;\n-    margin-left: 10px;\n+    margin-left: 200px;\n+    margin-right: 200px;\n     max-width: 500px\n }\n .form-input{\n     display: block;\n     max-width: 500px;\n     height: 10px;\n-\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n }\n"
+                },
+                {
+                    "date": 1676127300568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,4 +26,7 @@\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n }\n+.box-container {\n+    height: 550px;\n+}\n"
+                },
+                {
+                    "date": 1676127418601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,8 @@\n header a {\n     padding: 10px;\n     display: flexbox;\n     background-color: bisque;\n-    margin-left: 200px;\n-    margin-right: 200px;\n     max-width: 500px\n }\n .form-input{\n     display: block;\n@@ -27,6 +25,10 @@\n     margin-left: auto;\n     margin-right: auto;\n }\n .box-container {\n-    height: 550px;\n+    justify-content: space-between;\n+    display: flex;\n+    margin-block: 10px;\n+    margin-top: 30px;\n }\n+bo\n"
+                },
+                {
+                    "date": 1676127615258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,34 +1,13 @@\n *{\n     box-sizing:border-box;\n }\n-header b {\n-    background-color:whitesmoke ;\n-    display: flex;\n-    padding: 10px;\n-    border-radius: 40px;\n-    margin-right: auto;\n-    margin-left: auto;\n-    max-width: 500px;\n-    justify-content: center;\n-}\n-header a {\n-    padding: 10px;\n-    display: flexbox;\n-    background-color: bisque;\n-    max-width: 500px\n-}\n-.form-input{\n-    display: block;\n-    max-width: 500px;\n-    height: 10px;\n-    padding: 30px;\n-    margin-left: auto;\n-    margin-right: auto;\n-}\n .box-container {\n     justify-content: space-between;\n     display: flex;\n     margin-block: 10px;\n     margin-top: 30px;\n }\n-bo\n+.box1 {\n+    height: 400px;\n+    width: 500px;\n+}\n"
+                },
+                {
+                    "date": 1676127810065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,36 @@\n *{\n     box-sizing:border-box;\n }\n+header b {\n+    background-color:whitesmoke ;\n+    display: flex;\n+    padding: 10px;\n+    border-radius: 40px;\n+    margin-right: auto;\n+    margin-left: auto;\n+    max-width: 500px;\n+    justify-content: center;\n+}\n+header a {\n+    padding: 10px;\n+    display: flexbox;\n+    background-color: bisque;\n+    margin-left: 200px;\n+\n+    max-width: 500px\n+}\n+.form-input{\n+    display: block;\n+    max-width: 500px;\n+    height: 10px;\n+    padding: 30px;\n+    margin-left: auto;\n+    margin-right: auto;\n+}\n .box-container {\n     justify-content: space-between;\n     display: flex;\n     margin-block: 10px;\n     margin-top: 30px;\n }\n-.box1 {\n-    height: 400px;\n-    width: 500px;\n-}\n+box\n"
+                },
+                {
+                    "date": 1676128360787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,11 +26,23 @@\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n }\n-.box-container {\n-    justify-content: space-between;\n-    display: flex;\n-    margin-block: 10px;\n-    margin-top: 30px;\n+input {\n+    background-color: gainsboro;\n+    display: flexbox;\n+    padding: 10px;\n+    width: 100%;\n+    border: none;\n+    \n+    border-radius: 30px;\n+    margin-bottom: 10px;\n }\n-box\n+button {\n+    display: block;\n+    padding: 10px;\n+    width: 100%;\n+    border: none;\n+    color: blue;\n+    border-radius: 10px;\n+    background: lightblue;\n+}\n"
+                },
+                {
+                    "date": 1676128445454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 10px;\n     display: flexbox;\n     background-color: bisque;\n     margin-left: 200px;\n-\n+    float: inline-end;\n     max-width: 500px\n }\n .form-input{\n     display: block;\n"
+                },
+                {
+                    "date": 1676128487024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,10 @@\n     justify-content: center;\n }\n header a {\n     padding: 10px;\n-    display: flexbox;\n+    display: flex;\n     background-color: bisque;\n-    margin-left: 200px;\n     float: inline-end;\n     max-width: 500px\n }\n .form-input{\n"
+                },
+                {
+                    "date": 1676128678120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,13 +11,14 @@\n     max-width: 500px;\n     justify-content: center;\n }\n header a {\n+    display: block;\n     padding: 10px;\n-    display: flex;\n     background-color: bisque;\n-    float: inline-end;\n-    max-width: 500px\n+    width: 100%;\n+    \n+    max-width: 100px;\n }\n .form-input{\n     display: block;\n     max-width: 500px;\n"
+                },
+                {
+                    "date": 1676128803703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,10 @@\n     display: block;\n     padding: 10px;\n     background-color: bisque;\n     width: 100%;\n-    \n+    margin-left: auto;\n+    margin-right: auto;\n     max-width: 100px;\n }\n .form-input{\n     display: block;\n"
+                },
+                {
+                    "date": 1676128838303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     max-width: 500px;\n     justify-content: center;\n }\n header a {\n-    display: block;\n+    display: flexbox;\n     padding: 10px;\n     background-color: bisque;\n     width: 100%;\n     margin-left: auto;\n"
+                },
+                {
+                    "date": 1676128861127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n     display: flexbox;\n     padding: 10px;\n     background-color: bisque;\n     width: 100%;\n+    justify-content: right;\n     margin-left: auto;\n     margin-right: auto;\n     max-width: 100px;\n }\n"
+                },
+                {
+                    "date": 1676129042034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,14 @@\n *{\n     box-sizing:border-box;\n }\n+header{\n+    display: flex;\n+    padding: 20px;\n+    max-width: 500px;\n+    margin-left: auto;\n+    justify-content: space-between;\n+}\n header b {\n     background-color:whitesmoke ;\n     display: flex;\n     padding: 10px;\n@@ -12,14 +19,11 @@\n     justify-content: center;\n }\n header a {\n     display: flexbox;\n-    padding: 10px;\n+    padding: 12px;\n     background-color: bisque;\n     width: 100%;\n-    justify-content: right;\n-    margin-left: auto;\n-    margin-right: auto;\n     max-width: 100px;\n }\n .form-input{\n     display: block;\n"
+                },
+                {
+                    "date": 1676129060967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     display: flex;\n     padding: 20px;\n     max-width: 500px;\n     margin-left: auto;\n+    margin-right: auto;\n     justify-content: space-between;\n }\n header b {\n     background-color:whitesmoke ;\n"
+                },
+                {
+                    "date": 1676129212866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n *{\n     box-sizing:border-box;\n }\n header{\n+    background-color: lavender;\n     display: flex;\n     padding: 20px;\n     max-width: 500px;\n     margin-left: auto;\n@@ -21,9 +22,9 @@\n }\n header a {\n     display: flexbox;\n     padding: 12px;\n-    background-color: bisque;\n+    background-color: lightblue;\n     width: 100%;\n     max-width: 100px;\n }\n .form-input{\n"
+                },
+                {
+                    "date": 1676130596366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,19 @@\n *{\n     box-sizing:border-box;\n }\n header{\n-    background-color: lavender;\n+\n     display: flex;\n     padding: 20px;\n     max-width: 500px;\n     margin-left: auto;\n     margin-right: auto;\n-    justify-content: space-between;\n+    border: none;\n }\n+body{\n+    background-image: url(image/IMG100.JPG);\n+}\n header b {\n     background-color:whitesmoke ;\n     display: flex;\n     padding: 10px;\n@@ -21,9 +24,9 @@\n     justify-content: center;\n }\n header a {\n     display: flexbox;\n-    padding: 12px;\n+    padding: 22px;\n     background-color: lightblue;\n     width: 100%;\n     max-width: 100px;\n }\n@@ -31,8 +34,9 @@\n     display: block;\n     max-width: 500px;\n     height: 10px;\n     padding: 30px;\n+    color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n }\n input {\n@@ -40,9 +44,8 @@\n     display: flexbox;\n     padding: 10px;\n     width: 100%;\n     border: none;\n-    \n     border-radius: 30px;\n     margin-bottom: 10px;\n }\n button {\n@@ -53,4 +56,7 @@\n     color: blue;\n     border-radius: 10px;\n     background: lightblue;\n }\n+div a {\n+    color: yellowgreen;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676130893205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,9 @@\n .form-input{\n     display: block;\n     max-width: 500px;\n     height: 10px;\n+    background-color: whitesmoke;\n     padding: 30px;\n     color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n"
+                },
+                {
+                    "date": 1676131085706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n .form-input{\n     display: block;\n     max-width: 500px;\n     height: 10px;\n-    background-color: whitesmoke;\n+\n     padding: 30px;\n     color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n"
+                },
+                {
+                    "date": 1676131334620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     margin-right: auto;\n     border: none;\n }\n body{\n-    background-image: url(image/IMG100.JPG);\n+    background-image: url(image/IMG100.JPG)\n }\n header b {\n     background-color:whitesmoke ;\n     display: flex;\n"
+                },
+                {
+                    "date": 1676131424820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,5 +59,12 @@\n     background: lightblue;\n }\n div a {\n     color: yellowgreen;\n+}\n+p {\n+    padding-inline-start: 40px;\n+    color: chartreuse;\n+    display: block;\n+    max-width: 500px;\n+    justify-content: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676131649141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,11 +60,11 @@\n }\n div a {\n     color: yellowgreen;\n }\n-p {\n+footer {\n     padding-inline-start: 40px;\n     color: chartreuse;\n     display: block;\n     max-width: 500px;\n-    justify-content: center;\n+    justify-content: center\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676131872704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,14 +33,17 @@\n .form-input{\n     display: block;\n     max-width: 500px;\n     height: 10px;\n-\n     padding: 30px;\n+    background-color: black;\n+    background-size: 500px;\n+    background-repeat: no-repeat;\n     color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n }\n+\n input {\n     background-color: gainsboro;\n     display: flexbox;\n     padding: 10px;\n"
+                },
+                {
+                    "date": 1676132242891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,13 +32,11 @@\n }\n .form-input{\n     display: block;\n     max-width: 500px;\n-    height: 10px;\n+    background-color: whitesmoke;\n+    border-top: 20px;\n     padding: 30px;\n-    background-color: black;\n-    background-size: 500px;\n-    background-repeat: no-repeat;\n     color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n }\n"
+                },
+                {
+                    "date": 1676132419910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,18 +24,18 @@\n     justify-content: center;\n }\n header a {\n     display: flexbox;\n-    padding: 22px;\n+    padding: 15px;\n+    color: blue;\n     background-color: lightblue;\n     width: 100%;\n     max-width: 100px;\n }\n .form-input{\n     display: block;\n     max-width: 500px;\n     background-color: whitesmoke;\n-    border-top: 20px;\n     padding: 30px;\n     color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n"
+                },
+                {
+                    "date": 1676132486124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n     padding: 30px;\n     color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n+    border-radius: 30px;\n }\n \n input {\n     background-color: gainsboro;\n@@ -58,11 +59,8 @@\n     color: blue;\n     border-radius: 10px;\n     background: lightblue;\n }\n-div a {\n-    color: yellowgreen;\n-}\n footer {\n     padding-inline-start: 40px;\n     color: chartreuse;\n     display: block;\n"
+                },
+                {
+                    "date": 1676132536972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,8 @@\n     display: block;\n     max-width: 500px;\n     background-color: whitesmoke;\n     padding: 30px;\n-    color: chartreuse;\n     margin-left: auto;\n     margin-right: auto;\n     border-radius: 30px;\n }\n"
+                },
+                {
+                    "date": 1676186891125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n     max-width: 100px;\n }\n .form-input{\n     display: block;\n-    max-width: 500px;\n+    max-width: 400px;\n     background-color: whitesmoke;\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n@@ -57,12 +57,5 @@\n     border: none;\n     color: blue;\n     border-radius: 10px;\n     background: lightblue;\n-}\n-footer {\n-    padding-inline-start: 40px;\n-    color: chartreuse;\n-    display: block;\n-    max-width: 500px;\n-    justify-content: center\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676187203916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,25 +16,27 @@\n header b {\n     background-color:whitesmoke ;\n     display: flex;\n     padding: 10px;\n-    border-radius: 40px;\n+    border-radius: 30px;\n     margin-right: auto;\n     margin-left: auto;\n     max-width: 500px;\n     justify-content: center;\n }\n header a {\n     display: flexbox;\n-    padding: 15px;\n+    padding: 13px;\n     color: blue;\n+    border-radius: 20px;\n     background-color: lightblue;\n-    width: 100%;\n+    width: 200%;\n+    margin-bottom: 20px;\n     max-width: 100px;\n }\n .form-input{\n     display: block;\n-    max-width: 400px;\n+    max-width: 500px;\n     background-color: whitesmoke;\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n@@ -43,9 +45,9 @@\n \n input {\n     background-color: gainsboro;\n     display: flexbox;\n-    padding: 10px;\n+    padding: 12px;\n     width: 100%;\n     border: none;\n     border-radius: 30px;\n     margin-bottom: 10px;\n"
+                },
+                {
+                    "date": 1676187231585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n     background-color: whitesmoke;\n     padding: 30px;\n     margin-left: auto;\n     margin-right: auto;\n-    border-radius: 30px;\n+    border-radius: 60px;\n }\n \n input {\n     background-color: gainsboro;\n"
+                },
+                {
+                    "date": 1676187320368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,12 @@\n header{\n \n     display: flex;\n     padding: 20px;\n+    background-color: whitesmoke;\n     max-width: 500px;\n     margin-left: auto;\n+    border-radius: 70px;\n     margin-right: auto;\n     border: none;\n }\n body{\n@@ -26,8 +28,9 @@\n header a {\n     display: flexbox;\n     padding: 13px;\n     color: blue;\n+    background:white ;\n     border-radius: 20px;\n     background-color: lightblue;\n     width: 200%;\n     margin-bottom: 20px;\n"
+                },
+                {
+                    "date": 1676187376938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,10 @@\n header{\n \n     display: flex;\n     padding: 20px;\n-    background-color: whitesmoke;\n     max-width: 500px;\n     margin-left: auto;\n-    border-radius: 70px;\n     margin-right: auto;\n     border: none;\n }\n body{\n"
+                }
+            ],
+            "date": 1675953122856,
+            "name": "Commit-0",
+            "content": "*{\n    box-sizing: border-box;\n} \nbody {\n    background-color: #f1f1f1;\n}\nheader{\n    padding: 20px;\n    justify-content: right;\n}\nheader a {\n    padding: 10px;\n    width: 100%;\n    max-width: 500px;\n    font-style: italic;\n    background: blue;\n    color: black;\n}\n.box {\n    padding: 20px;\n}\n\n}\n.box div {\n    max-width: 500px;\n    padding: 10px;\n    display: block;\n    font-size: medium;\n    margin-left: auto;\n    margin-right: auto;\n}\nheader div {\n    display: flex;\n    padding: 20px;\n    font-size: 20px;\n    max-width: 500px;\n    margin-left: auto;\n    margin-right: auto;\n}\n.form-input {\n    background-color:rgb(195, 173, 173);\n    width: 100%;\n    max-width: 500px;\n    margin-left: auto;\n    margin-right: auto ;\n}\ninput {\n    display: block;\n    width: 70%;\n    background-color: deepskyblue;\n    border-radius: 20px;\n    margin-bottom: 10px;\n    padding: 10px;\n    border-color: chartreuse;\n}\nbutton {\n    display: block;\n    width: 70%;\n    border: none;\n    padding: 10px;\n    border-radius: 20px;\n    background-color: blue;\n    color: rgb(153, 255, 20);\n}\n"
+        }
+    ]
+}

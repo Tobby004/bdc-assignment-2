@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    color: black;
+    max-width: 500px;
+}
+header a {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin-right: auto;
+}
